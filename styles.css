@@ -59,7 +59,7 @@ nav a {
 /* Carousel */
 .carousel-container {
   display: flex;
-  justify-content: center;
+  Flex-Direction: Column;
   height: 100vh;
   overflow: hidden;
 }
