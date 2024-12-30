@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Carousel</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Logan Juern</h1>
+    <p>Short about me blurb. Something about web dev.</p>
+    <nav>
+      <a href="#projects">Current Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="theme-toggle">
+    <button id="toggle-theme">🌑</button>
+  </div>
+
+  <div class="carousel-container" id="projects">
+    <div id="carousel">
+      <!-- Cards with embedded videos -->
+      <div class="card">
+        <iframe src="your-video-url-1?autoplay=1&controls=0" allow="autoplay"></iframe>
+        <h3>Design Work</h3>
+      </div>
+      <div class="card">
+        <iframe src="your-video-url-2?autoplay=0&controls=0" allow="autoplay"></iframe>
+        <h3>House Hunter</h3>
+      </div>
+      <div class="card">
+        <iframe src="your-video-url-3?autoplay=0&controls=0" allow="autoplay"></iframe>
+        <h3>Pack & Track</h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="static/js/scripts.js"></script>
+</body>
+</html>
