@@ -61,6 +61,8 @@ nav a {
   display: flex;
   Flex-Direction: Column;
   height: 100vh;
+  margin: 0 auto;
+  width: 100%;
   overflow: hidden;
 }
 
